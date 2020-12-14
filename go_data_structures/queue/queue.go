@@ -59,7 +59,7 @@ func (q *Queue) Dequeue() *Queue {
     return q
 }
 
-func (q *LinkedList) PrintAll() {
+func (q *Queue) PrintAll() {
     var node = q.Head
     for {
         fmt.Println(node.Data)

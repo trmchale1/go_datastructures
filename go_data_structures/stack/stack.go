@@ -58,8 +58,8 @@ func (s *Stack) Pop(v interface{}) *Stack {
     return s
 }
 
-func (ll *LinkedList) PrintAll() {
-    var node = ll.Head
+func (s *Stack) PrintAll() {
+    var node = s.Head
     for {
         fmt.Println(node.Data)
         if node.Next == nil {
